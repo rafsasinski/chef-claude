@@ -1,9 +1,10 @@
 import {Fragment} from 'react';
+import Header from './components/Header.jsx';
 
 export default function App() {
     return (
         <Fragment>
-            <h1>App is alive!</h1>
+            <Header />
         </Fragment>
     );
 }
