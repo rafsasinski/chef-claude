@@ -25,7 +25,7 @@ header {
     min-width: 700px;
 }
 
-header img {
+header > img {
     width: 50px;
 }
 
