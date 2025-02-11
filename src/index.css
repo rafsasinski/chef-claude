@@ -21,8 +21,8 @@ header {
     height: 80px;
     justify-content: center;
     margin: 0 auto;
-    width: 50%;
     min-width: 700px;
+    width: 50%;
 }
 
 header > img {
@@ -31,4 +31,47 @@ header > img {
 
 header > h1 {
     font-weight: 400;
+}
+
+main {
+    margin: 0px auto;
+    padding: 30px 30px 10px;
+    min-width: 700px;
+    width: 50%;
+}
+
+.ingredient-form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 60px auto;
+    min-width: 700px;
+    width: 50%;
+}
+
+.ingredient-form > input[type=text] {
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    height: 38px;
+    padding: 9px 13px;
+    width: 399px;
+}
+
+.ingredient-form > button {
+    background-color: #000;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    height: 38px;
+    padding: 9px 17px;
+    width: 183px;
+}
+
+.ingredient-form > button::before {
+    content: "+";
+    margin-right: 5px;
+}
+
+.ingredient-form > button:hover {
+    background-color: seagreen;
 }
